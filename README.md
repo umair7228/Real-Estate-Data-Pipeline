@@ -55,7 +55,9 @@ The architecture includes the following components:
   
   ## Visualizations through Power BI
   ### Sum of Homes Sold
-  ![sum-of-homes-sold](https://github.com/user-attachments/assets/dc2f3f5f-fe15-4bfd-90d2-bcd84031a2c1)
+   ![sum-of-homes-sold](https://github.com/user-attachments/assets/c3e0efc4-690f-4aad-aa1d-0db25e7870f9)
+
 
   ### Sum of Inventory
-  ![sum-of-inventory](https://github.com/user-attachments/assets/7bb48751-ddd5-455d-9157-4ad383236f9e)
+   ![sum-of-inventory](https://github.com/user-attachments/assets/2bed1deb-48a0-4592-b724-753790d3041d)
+
