@@ -1,0 +1,28 @@
+These commands are used to set up a Python development environment, install necessary packages,
+and configure Apache Airflow and AWS on an EC2 instance. Here’s what each command does:
+
+sudo apt update ==> Update the available packages and their versions from the Ubuntu repositories
+
+sudo apt install python3-pip ==> python installation
+
+python3 --version ==> To check the python version
+
+sudo apt install python3.12-venv ==> To install the enviroment for python
+
+python3 -m venv redfin_venv == To create the enviroment
+
+source redfin_venv/bin/activate ==> To activate the enviroment
+
+pip install pandas ==> To install Pandas
+
+pip install boto3 ==> To install boto3
+
+pip install --upgrade awscli ==> To install the latest aws cli
+
+pip install apache-airflow ==> To install apache-airflow
+
+airflow version ==> To check the version of airflow
+
+aws configure ==>  Configures the AWS CLI with your AWS credentials (Access Key ID, Secret Access Key, region, and output format). This is necessary for interacting with AWS services like S3, EC2, etc
+
+airflow standalone ==> Starts an instance of Airflow in standalone mode, which sets up a quick environment for testing and running workflows locally. It also sets up a web UI and database to manage tasks.
